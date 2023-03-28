@@ -8,3 +8,14 @@
     font-size: 30px;
     color: mediumslateblue;
 }
+#my-video {
+  width: 100%; /* set the width to 100% of its container */
+  height: auto; /* set the height to auto to maintain aspect ratio */
+}
+
+@media screen and (max-width: 480px) {
+  #my-video {
+    width: 100%; /* set the width to 100% of its container */
+    height: auto; /* set the height to auto to maintain aspect ratio */
+  }
+}
